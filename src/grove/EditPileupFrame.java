@@ -196,7 +196,6 @@ public class EditPileupFrame extends javax.swing.JFrame {
     }
 
     private void populateColumnDropdown(JComboBox dropdown) {
-
         dropdown.removeAllItems();
         for (int i = 1; i < 5 + 1; i++) {
             dropdown.addItem(i);
